@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Demo\\GV\\GVFinserve\\GVFinserve.csproj": {}
+    "E:\\Demo\\GV\\GV\\GVFinserve.csproj": {}
   },
   "projects": {
-    "E:\\Demo\\GV\\GVFinserve\\GVFinserve.csproj": {
+    "E:\\Demo\\GV\\GV\\GVFinserve.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\GV\\GVFinserve\\GVFinserve.csproj",
+        "projectUniqueName": "E:\\Demo\\GV\\GV\\GVFinserve.csproj",
         "projectName": "GVFinserve",
-        "projectPath": "E:\\Demo\\GV\\GVFinserve\\GVFinserve.csproj",
+        "projectPath": "E:\\Demo\\GV\\GV\\GVFinserve.csproj",
         "packagesPath": "C:\\Users\\ndivyesh\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo\\GV\\GVFinserve\\obj\\",
+        "outputPath": "E:\\Demo\\GV\\GV\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ndivyesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

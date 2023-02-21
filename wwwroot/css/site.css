@@ -59,8 +59,8 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
 .footer {
   position: absolute;
@@ -68,6 +68,16 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+/*Layout page*/
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #dc4c64;
 }
 
 .dashboard_header {
@@ -83,3 +93,43 @@ body {
 .faicon {
     color: #5270a7;
 }
+
+.displaycontent {
+    padding-top: 70px;
+}
+
+/*ABOUT US page*/
+
+.aboutus-img {
+    text-align: center;
+}
+
+/*About us Timeline*/
+.timeline-with-icons {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+}
+
+    .timeline-with-icons .timeline-item {
+        position: relative;
+    }
+
+        .timeline-with-icons .timeline-item:after {
+            position: absolute;
+            display: block;
+            top: 0;
+        }
+
+    .timeline-with-icons .timeline-icon {
+        position: absolute;
+        left: -48px;
+        background-color: hsl(217, 88.2%, 90%);
+        color: hsl(217, 88.8%, 35.1%);
+        border-radius: 50%;
+        height: 31px;
+        width: 31px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }

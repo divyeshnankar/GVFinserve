@@ -62,19 +62,27 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
-.footer {
+/*.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 60px;*/ /* Vertically center the text there */
+/*}*/
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
 }
 
 /*Layout page*/
 
 #btn-back-to-top {
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 20px;
     display: none;
     background-color: #dc4c64;
@@ -98,8 +106,8 @@ body {
     padding-top: 70px;
 }
 
-/*ABOUT US page*/
 
+/*ABOUT US page*/
 .aboutus-img {
     text-align: center;
 }
